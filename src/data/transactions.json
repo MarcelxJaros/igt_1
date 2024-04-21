@@ -1,0 +1,79 @@
+[
+  {
+    "transaction_id": 1,
+    "product_name": "Ballpoint Pens",
+    "price": 3.33,
+    "amount": 40,
+    "transaction_date": "2024-04-19"
+  },
+  {
+    "transaction_id": 2,
+    "product_name": "Notebooks",
+    "price": 3.33,
+    "amount": 20,
+    "transaction_date": "2024-04-20"
+  },
+  {
+    "transaction_id": 3,
+    "product_name": "Pencils",
+    "price": 5.99,
+    "amount": 50,
+    "transaction_date": "2024-04-20"
+  },
+  {
+    "transaction_id": 4,
+    "product_name": "Notebooks",
+    "price": 6.49,
+    "amount": 40,
+    "transaction_date": "2024-04-21"
+  },
+  {
+    "transaction_id": 5,
+    "product_name": "Pencils",
+    "price": 7.29,
+    "amount": 30,
+    "transaction_date": "2024-04-24"
+  },
+  {
+    "transaction_id": 6,
+    "product_name": "Paper A4",
+    "price": 8.49,
+    "amount": 1000,
+    "transaction_date": "2024-05-1"
+  },
+  {
+    "transaction_id": 7,
+    "product_name": "Ballpoint Pens",
+    "price": 9.99,
+    "amount": 20,
+    "transaction_date": "2024-05-2"
+  },
+  {
+    "transaction_id": 8,
+    "product_name": "Pencils",
+    "price": 10.79,
+    "amount": 15,
+    "transaction_date": "2024-05-10"
+  },
+  {
+    "transaction_id": 9,
+    "product_name": "Paper A3",
+    "price": 6.99,
+    "amount": 25,
+    "transaction_date": "2024-05-13"
+  },
+  {
+    "transaction_id": 10,
+    "product_name": "Ballpoint Pens",
+    "price": 7.49,
+    "amount": 20,
+    "transaction_date": "2024-05-13"
+  },
+  {
+    "transaction_id": 11,
+    "product_name": "Pencils",
+    "price": 8.29,
+    "amount": 15,
+    "transaction_date": "2024-05-30"
+  }
+]

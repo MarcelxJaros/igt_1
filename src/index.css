@@ -11,3 +11,67 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 0 5rem;
+}
+.heading {
+  margin: 2rem 2rem 1rem 2rem;
+  display: flex;
+  justify-content: center;
+  border: 1px solid lightgray;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  font-size: 2rem;
+}
+
+.dashboard {
+  display: flex;
+  margin: 2rem;
+  gap: 4rem;
+}
+.dashboard-left {
+  /* margin: 2rem; */
+  flex: 40%;
+}
+.dashboard-right {
+  /* margin: 2rem; */
+  flex: 60%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: stretch;
+}
+
+.totals {
+  display: flex;
+  gap:1rem;
+}
+
+.date-range {
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  border-color: lightgrey !important;
+  padding: 1rem;
+  .rdrDateDisplayWrapper {
+    border-radius: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .page-wrapper {
+    margin: auto
+  }
+  .dashboard {
+    flex-direction: column;
+  }
+  .dashboard-left {
+    display: flex;
+    justify-content: center;
+  }
+  .dashboard-right {
+    display: flex;
+    justify-content: center;
+  }
+}
